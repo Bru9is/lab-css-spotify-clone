@@ -1,3 +1,10 @@
+index.html,
+body {
+  margin: 0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
 /*
 Colors:
 
@@ -6,3 +13,77 @@ Green: #00B172
 White: #FFF
 
 */
+header{
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.logo{
+    width: 120px;
+    margin-left: 20px;
+}
+
+.menu{
+
+}
+
+.top{
+    position: relative;
+    size: cover;
+    background: url("../images/landing.jpg");
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+}
+
+.top div{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    text-align: center;
+}
+
+h1{
+    border-bottom: 5px solid #00B172;
+    font-family: Arial;
+    width: 270px;
+    margin: 0 auto;
+
+}
+
+h2 {
+    Size: 9em;
+    text-align: center;
+    Transform: uppercase;
+}
+    
+.menu ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+.menu ul li { 
+    display: inline;
+    float: right;
+    margin: 0;
+    padding: 0;
+}    
+    
+.menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+}
+
+.menu img {
+    width: 160px;
+    height: 50px;
+    float: left;
+}
+
